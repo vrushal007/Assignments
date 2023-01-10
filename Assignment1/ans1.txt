@@ -1,0 +1,4 @@
+We can use ssh to connect our pc with gitub account.
+command for writing ssh key:
+$ git-keygen
+It will generate a ssh key. We have to copy that public ssh key and pest it in our github account setting.
