@@ -1,0 +1,2 @@
+static website doesn't contain any backend or database
+whereas dynamic website contains backend.

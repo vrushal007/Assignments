@@ -1,0 +1,15 @@
+// steps followed to connect local repo with github repo
+1. run command $ssh-keygen in terminal
+2. Folder is created named .ssh contains public and private ssh key.
+3. Open github settings and add new ssh public ssh key.
+4. Create new github repo
+5. Create local repo and open it in terminal then run following commands
+6. add some files to that local repo and run this.
+```
+$ git init
+$ git add -A
+$ git commit -m "This is comment"
+$ git remote add origin git@github.com:vrushal007/expensetracker.git
+$ git push --set-upstream origin master
+```
+7. This will connect local repo to github repo with content within it.
