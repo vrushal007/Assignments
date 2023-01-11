@@ -1,0 +1,2 @@
+npm install packagename // install any new packagename
+npm install //install dependencis for project using package.json
