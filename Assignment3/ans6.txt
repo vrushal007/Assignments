@@ -1,0 +1,3 @@
+var has function scope and let has block scope.
+so if we declare variable with var in for loop of any function then that variable is accessible in all the function.
+so we use let instead of var due to unwanted scope.

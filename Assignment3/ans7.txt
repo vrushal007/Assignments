@@ -1,0 +1,6 @@
+primitive dataTypes in Javascript
+number
+string
+boolean
+null
+undefined

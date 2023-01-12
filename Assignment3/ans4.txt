@@ -1,0 +1,2 @@
+To transfer data from server to client, Client sent http request to server in form of JSON/Javascript Object.
+Then Server process it and send a response to client mainly in form of JSON.

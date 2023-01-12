@@ -1,4 +1,3 @@
 // git command to reset commit
 git reset --hard commitID       //commit can get from $git log
 git revert Head
-nS

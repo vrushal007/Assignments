@@ -1,0 +1,9 @@
+// Architecture of nodeJS
+Call stack
+NodeAPI
+Callback Queue - store asynchrous process
+
+// NodeJS Features Non-blocking,Synchrous, Single Threaded
+Non-blocking = Javascript continue runs code even after upper code hasn't got fully executed.
+Synchrous = Javascript default run in Synchrous way. We can use asynchrous methods by async await block/promises
+Single Threaded = Javascript runs only in one thread unlike Java.
