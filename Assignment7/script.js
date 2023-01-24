@@ -79,12 +79,15 @@ function bestSpot() {
 }
 
 function checkTie() {
-    if (emptySquares().length == 0) {
+    if (emptySquares().length == 0 && !checkWin(origBoard, huPlayer)) {
         for (var i = 0; i < cells.length; i++) {
             cells[i].style.backgroundColor = "green";
             cells[i].removeEventListener("click", turnClick, false);
         }
         declareWinner("Tie Game!");
+        return true;
+    } else if (checkWin(origBoard, huPlayer)) {
+        declareWinner("You win!")
         return true;
     }
     return false;
